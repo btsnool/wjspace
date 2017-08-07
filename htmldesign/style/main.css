@@ -41,13 +41,15 @@ body{
 @media only screen and (min-width: 0px) and (max-width:498px),only screen and (min-width:499px) and (max-width:704px) {
 	.box{
 	
-	width: 600px; height: 100px;
+	height: 100px;
 	display: inline-block;
 	background-color:white;
 	
 	margin: 2px;
 	box-shadow:10px;
 
+}.box,.container.content{
+  width:100%;
 }
 }
 .footer{

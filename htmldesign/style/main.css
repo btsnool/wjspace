@@ -49,7 +49,7 @@ body{
 	margin: 2px;
 	box-shadow:10px;
 
-}.box,.container.content{
+}.box,.container,.content{
   width:100%;
   text-align:center;
 }

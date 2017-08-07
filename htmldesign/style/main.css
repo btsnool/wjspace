@@ -43,7 +43,7 @@ body{
 	
 	height: 100px;
 	display: inline-block;
-	background-color:black;
+	background-color:white;
 
 	
 	margin: 2px;
@@ -51,6 +51,7 @@ body{
 
 }.box,.container.content{
   width:100%;
+  text-align:center;
 }
 }
 .footer{

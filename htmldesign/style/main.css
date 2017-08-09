@@ -52,12 +52,21 @@ body{
 	height: 100px;
 	display: inline-block;
 	background-color:white;
-	margin: 20px;
+	
 	box-shadow:10px;
 
-}.box,.container,.content{
+}.container{
+	 width:98%;
+	 
+	
+}.box,.content{
   width:100%;
   text-align:center;
+  /**fix the problem of padding when the width 100%**/
+  box-sizing: border-box;
+}.content{
+	box-sizing: border-box;
+	padding: 0 10px 0 10px;
 }
 }
 .footer{
